@@ -1,0 +1,94 @@
+*{
+  text-transform:uppercase;
+}
+label{
+  text-transform:uppercase;
+}
+body, html {
+ height: 100%;
+  margin: 0;
+}
+
+.bgimg {
+  /*background-image: url('https://www.w3schools.com/w3images/forestbridge.jpg');*/
+  background-image: url('../image/bg2.jpg');
+  height:1200px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 36px;
+}
+
+.topleft {
+  position:relative;
+  top:8%!important;
+  font-size:30px;
+  text-align:center;
+}
+.profile{
+  font-size:20px;
+  background-color:transparent!important;
+}
+label{
+  color:white;
+  font-size:20px;
+}
+
+.bottomleft {
+  /*position: absolute;*/
+  bottom: 0;
+  /*left: 16px;*/
+  text-align:center;
+}
+
+.middle {
+  position:absolute;
+  top: 30%;
+  left: 45%;
+  transform: translate(-40%, -40%);
+  font-size:20px;
+  /*text-align: center;*/
+}
+
+hr {
+  margin: auto;
+  width: 40%;
+}
+a{
+  color:white!important;
+  font-size: 20px;
+}
+@media (min-width: 724px){
+  .card{
+    margin-left:20%; 
+    margin-right:20%;
+  }
+  .web{
+    display:none;
+  }
+  }
+@media (max-width: 724px){
+  .card{
+    margin-top:22%;
+  }
+  .mob{
+    display:none;
+  }
+  label{
+    font-size:16px!important;
+  }
+  .bgimg{
+   height:1700px;
+  }
+  .topleft {
+  top:4%!important;
+  }
+  a{
+   font-size: 16px; 
+  }
+  }
+.m{
+  margin-right:50%!important;
+}
